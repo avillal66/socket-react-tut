@@ -17,7 +17,7 @@ const { Server } = require("socket.io");
 const cors = require("cors");
 // setting our project to accept cors 
 app.use(cors());
-// creating actual http server with express and passes a
+// creating actual http server with express and passes app
 const server = http.createServer(app);
 
 // create io variable that will be used to do anything related to socket io in BE
